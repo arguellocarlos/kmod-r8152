@@ -47,9 +47,8 @@ find %{buildroot}/lib/modules/%{kernel_version} -name "*.ko" -type f | xargs chm
 /etc/udev/rules.d/50-usb-realtek-net.rules
 
 %changelog
-* Sun, 08 Jun 2025 Deokgyu Yang <secugyu@gmail.com> - 2.20.1
+* Sun, 08 Jun 2025 Deokgyu Yang <secugyu@gmail.com> - 2.20.1-1
 - Update Realtek r8152 driver to 2.20.1
-- Enable compiling for intended kernel versions
 
 * Tue Nov 12 2024 Andrew Lindh <andrew@netplex.net> - 2.19.2-1
 - Vendor driver r8152-2.19.2
